@@ -1,0 +1,168 @@
+body {
+    font-family: 'Red Hat Display', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    color: #000000;
+    
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type:circle;
+}
+
+#page {
+    background-color: #ffffffff;
+    margin: auto;
+    max-width: 1300px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #fdd25b;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header a {
+    margin: 10px;
+}
+
+#content > div {
+    margin: 50px;
+    background-color: #fdd054ce;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+#content a {
+    width: 50%;
+    height: 50%;
+}
+
+.text{
+    padding: 30px;
+}
+
+#content img {
+    width: 100%;
+    height: auto;
+}
+
+#costs table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+#costs th, #costs td {
+    padding: 12px;
+}
+
+#costs th {
+    text-transform: uppercase;
+}
+
+.tableContent:hover {
+    background-color: #e2b22d;
+}
+
+#costs tr:nth-child(even) {
+    background-color: #faca45;
+}
+#costs tr:nth-child(even):hover {
+    background-color: #e2b22d;
+}
+
+#costs th[colspan="2"] {
+    text-align: center;
+    font-size: 20px;
+}
+
+#list h3{
+    padding: 30px;
+    margin: 0;
+}
+
+#list div {
+    box-shadow: none;
+}
+
+#listContent {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#listContent div {
+    padding: 0 50px 50px 50px;
+}
+
+li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#film {
+    height: 400px;
+}
+
+#film iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+#map {
+    height: 400px;
+}
+
+#map iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
